@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Enhanced</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+        <div id="score">0</div>
+        <div id="gameOver">
+            Game Over!
+            <div id="finalScore">Score: 0</div>
+            <div id="highScore">Best: 0</div>
+            <button id="restartBtn">Main Lagi</button>
+        </div>
+        <div id="startScreen">
+            <h1 id="startTitle">Flappy Bird</h1>
+            <button id="startBtn">Mulai Game</button>
+            <div id="bestScore">Best Score: 0</div>
+            <div id="controls">
+                Space/Up Arrow/Tap to Flap<br>
+                Avoid the pipes!
+            </div>
+        </div>
+        <button id="fullscreenBtn">Fullscreen</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
